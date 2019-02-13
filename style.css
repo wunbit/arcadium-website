@@ -23,3 +23,10 @@
     Text Domain: arcadium-child-theme
 
 */
+
+
+/* 404 error page */
+
+body.error404 {
+    background: #fff!important;
+}
