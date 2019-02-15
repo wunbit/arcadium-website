@@ -24,9 +24,256 @@
 
 */
 
+/* General */
+body {
+  font-size: 16px;
+}
+
+/* Header */
+#header .stm-header__hb .stm-navigation ul li a {
+    font-size: 16px!important;
+    font-weight: 500!important;
+    text-transform: uppercase!important;
+}
+
+#stm_stm_hb_settings .stm-header__row_color_center {
+    padding-top: 15px!important;
+    padding-bottom: 15px!important;
+}
+
+/* Icons */
+body div .vc_btn3.vc_btn3-style-flat.vc_btn3-icon-left i:hover {
+  border: none!important;
+}
+
+/* Roadmap */
+.stm_timeline-wrap .timeline-item .timeline-date .timeline_year {
+    font-size: 36px;
+}
+
+.stm_timeline-wrap .timeline-item {
+    min-height: 100px;
+}
 
 /* 404 error page */
 
 body.error404 {
     background: #fff!important;
+}
+
+/* Page */
+.page_title h1 {
+    color: #fff!important;
+}
+
+/* Blog */
+.post-template-default .content-area {
+   border-bottom: none!important;
+   -webkit-box-shadow: -0.2px 3px 16px 0 rgba(200, 200, 200, 0.6);
+   box-shadow: -0.2px 3px 16px 0 rgba(200, 200, 200, 0.6);
+   background-color: #fff;
+   margin-top: 20px;
+}
+
+.posts_list>ul>li {
+    border-bottom: none!important;
+    -webkit-box-shadow: -0.2px 3px 16px 0 rgba(200, 200, 200, 0.6);
+    box-shadow: -0.2px 3px 16px 0 rgba(200, 200, 200, 0.6);
+    background-color: #fff;
+    margin: 0 0 49px!important;
+}
+
+.posts_list>ul>li h4 {
+    font-size: 32px!important;
+}
+
+.posts_list>ul>li h4 a {
+    color: #1b2124!important;
+}
+
+.post-content {
+    padding: 10px 40px;
+}
+
+.post_cat {
+    display: none;
+}
+
+ div.post-content > h4 > a {
+   font-size: 42px;
+   font-weight: 600!important;
+    color: #1b2124;
+ }
+
+ .stm_post_info {
+    margin: 0 0 0px!important;
+}
+
+/* Sidebar */
+.widget .widget_title {
+    font-size: 28px;
+}
+
+.widget.widget_recent_comments ul li, .widget.widget_rss ul li {
+    font-family: Roboto!important;
+}
+
+
+/* Contact Us */
+.contact-us p {
+    margin: 0!important;
+}
+
+.contact-us .wpb_text_column p  {
+    color: #fff!important;
+}
+
+.contact-us input[type=text], .contact-us input[type=email], .contact-us input[type=password], .contact-us input[type=search], textarea,  body .contact-us textarea.wpcf7-form-control {
+    background-color: #67c0ff;
+    color: #fff!important;
+    border: 0!important;
+}
+
+label {
+    margin-bottom: 0!important;
+}
+
+.contact-us ::-webkit-input-placeholder { /* WebKit browsers */
+    color: #fff !important;
+    opacity: 1;
+    font-size: 16px;
+}
+.contact-us :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #fff !important;
+    opacity: 1;
+    font-size: 16px;
+}
+.contact-us ::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #fff !important;
+    opacity: 1;
+    font-size: 16px;
+}
+.contact-us :-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: #fff !important;
+    opacity: 1;
+    font-size: 16px;
+}
+
+button, html input[type=button], input[type=reset], input[type=submit], .comment-form-comment {
+    -webkit-appearance: button;
+    cursor: pointer;
+    transition: all .4s;
+    border-radius: 4px!important;
+    background-color: #532db8!important;
+    background-size: 200% auto;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none!important;
+    background-repeat: repeat!important;
+    color: #fff;
+    width: 440px;
+    margin-top: 25px;
+    font-size: 16px;
+}
+
+.wpcf7-form-control {
+    font-size: 16px!important;
+}
+
+body .input-group textarea.form-control, body textarea.form-control {
+    font-size: 14px;
+    line-height: 18px;
+    color: #222;
+    background: 0 0;
+    box-shadow: none;
+    outline: 0;
+    padding: 16px 30px 15px;
+    transition: all .3s ease;
+    box-sizing: border-box!important;
+    width: 100%;
+    display: block;
+    border: 1px solid #ccc!important;
+    border-radius: 4px!important;
+}
+
+.stm_post_comments {
+  margin-top: 20px;
+}
+
+#comments button {
+    border: none!important;
+    margin-top: 20px;
+    width: 300px;
+}
+
+body #order_comments, body .input-group textarea.form-control, body textarea.form-control, body textarea.wpcf7-form-control {
+    color: #222!important;
+    font-weight: normal;
+}
+
+/* Easy Social Share */
+.essbfc-container.essbfc-container-profiles i {
+    font-size: 28px!important;
+    line-height: 32px!important;
+    width: 32px!important;
+}
+
+.contact-social .essbfc-container {
+    float: left;
+}
+
+.float-left {
+    float: left;
+}
+
+.easy-home-h3 {
+  font-size: 36px!important;
+  text-transform: uppercase;
+}
+
+body .essb_fullwidth_14_100_100 li {
+    width: 13%!important;
+    padding-right: 9px!important;
+}
+
+.essb_mailform_content .essb_mailform_content_input {
+    font-size: 16px!important;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.essb_mailform_content .essb_mailform_content_label {
+    font-size: 12px!important;
+}
+
+.essb_mailform_content .essb_mailform_content_button {
+    padding: 10px 10px!important;
+    margin-top: 10px!important;
+    background-color: #2980b9;
+    font-size: 16px!important;
+    width: 100%;
+}
+
+/* Team */
+.team h4 {
+    padding: 0!important;
+    font-size: 28px;
+}
+
+.team h3 {
+    padding: 0!important;
+    color: #ccc!important;
+    font-size: 18px;
+    font-weight: normal!important;
+    color: #34bbff!important;
+}
+
+.team .wpb_content_element {
+    margin-bottom: 5px;
+}
+
+/* MailChimp for WordPress */
+.mc4wp_checkmark {
+    color: #fff;
+    margin-top: 10px;
 }
