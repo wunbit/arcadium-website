@@ -46,6 +46,46 @@ body {
     float:left
 }
 
+.vc_toggle_title>h4 {
+    color: #fff;
+    margin-left: 10px;
+}
+
+.vc_toggle_size_md.vc_toggle_default .vc_toggle_title .vc_toggle_icon {
+    margin-left: 15px;
+}
+
+.vc_toggle {
+    background-image: linear-gradient(to right,#532db8 0,#0196ff 100%)!important;
+    border-radius: 15px;
+}
+
+.vc_toggle_content {
+    margin-bottom: 0px!important;
+}
+
+.vc_toggle_content > p {
+    color:#fff;ç
+    margin-left: 10px;
+}
+
+.vc_toggle_content a {
+    color:#fff!important;
+}
+
+.vc_toggle_default .vc_toggle_icon {
+    background: #0196ff!important;
+    border: 1px solid #0196ff!important;
+}
+
+.vc_toggle_default .vc_toggle_icon::before {
+    border: 1px solid #0196ff!important;
+}
+
+.vc_toggle_default .vc_toggle_icon::after, .vc_toggle_default .vc_toggle_icon::before {
+    background: #0196ff!important;
+}
+
 /* Icons */
 body div .vc_btn3.vc_btn3-style-flat.vc_btn3-icon-left i:hover {
   border: none!important;
@@ -330,4 +370,35 @@ body .essb_fullwidth_14_100_100 li {
 
 .col-xs-12 {
     margin-top: 15px!important;
+}
+
+/* Cool Timeline */
+.ultimate-style .timeline-post .timeline-content .content-title {
+    padding: 15px 15px!important;
+    border-radius: 5px!important;
+}
+
+.cool_timeline h1.timeline-main-title {
+    display: none;
+}
+
+.cool-timeline.white-timeline .timeline-post.odd .timeline-content .content-title, .cool-timeline.white-timeline .timeline-post.even .timeline-content .content-title {
+    display: none!important;
+}
+
+.cool-timeline.white-timeline .timeline-post .timeline-content .content-details {
+    color: #fff;
+    font-weight: bold;
+}
+
+.cool-timeline.white-timeline .timeline-post.even .timeline-content .content-title, .cool-timeline.white-timeline .timeline-post.odd .timeline-content .content-title {
+    background-image: linear-gradient(to right,#532db8 0,#0196ff 100%)!important;
+}
+
+.cool-timeline .timeline-post .timeline-content {
+    background-image: linear-gradient(to right,#532db8 0,#0196ff 100%)!important;
+}
+
+.cool-timeline.white-timeline .timeline-post.even .timeline-meta .meta-details, .cool-timeline.white-timeline .timeline-post.odd .timeline-meta .meta-details {
+    font-size: 18px;
 }
