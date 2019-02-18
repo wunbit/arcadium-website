@@ -10,6 +10,12 @@
 						<div class="media-body media-middle">
 							<h3><?php esc_html_e( 'The page you are looking for does not exist.', 'crypterio' ); ?></h3>
 						</div>
+						<div class="media-right media-middle">
+							<a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="button icon_right theme_style_3 bordered">
+								<?php esc_html_e( 'homepage', 'crypterio' ); ?>
+								<i class="fa fa-chevron-right"></i>
+							</a>
+						</div>
 					</div>
 				</div>
 			</div>
