@@ -33,6 +33,10 @@ body {
     display: inline-block;
 }
 
+.page_title {
+    background-image: linear-gradient(to right,#532db8 0,#0196ff 100%)!important;
+}
+
 /* Header */
 #header .stm-header__hb .stm-navigation ul li a {
     font-size: 16px!important;
