@@ -26,7 +26,11 @@
 
 /* General */
 body {
-  font-size: 16px;
+    font-size: 16px;
+}
+
+.inline-block{
+    display: inline-block;
 }
 
 /* Header */
@@ -60,12 +64,16 @@ body {
     border-radius: 15px;
 }
 
+.vc_toggle h4 {
+    color:#fff!important;
+}
+
 .vc_toggle_content {
     margin-bottom: 0px!important;
 }
 
 .vc_toggle_content > p {
-    color:#fff;ç
+    color:#fff!important;
     margin-left: 10px;
 }
 
@@ -86,9 +94,118 @@ body {
     background: #0196ff!important;
 }
 
+.icon_box .style_1:hover ul{
+    color: #fff!important;
+}
+
+#token .icon_box_token:hover {
+    color: #fff!important;
+}
+
+.icon_box.style_1 .icon_text p {
+    font-size: 16px;
+}
+
+.colored-background{
+    background: transparent;
+    background-image: linear-gradient(to right,#532db8 0,#0196ff 100%)!important;
+}
+
+/* Popup Maker */
+.pum-container.pum-responsive.pum-responsive-medium {
+    width: 40%!important;
+    padding: 5%!important;
+}
+.pum-theme-5190 .pum-container, .pum-theme-lightbox .pum-container {
+    border: none!important;
+}
+
+.pum-title {
+    font-weight: 600!important;
+    color: #1b2124!important;
+    padding: 0!important;
+    margin: 0 0 20px!important;
+    font-size: 42px!important;
+    line-height: 60px!important;
+    letter-spacing: -.5px!important;
+}
+
+/* Countdown ICO */
+.stm_ico_countdown.style_3 .stm_countdown_wrap .stm_left_countdown .stm_ico_countdown__title_wrap .stm_ico_countdown__title {
+    transform: none!important;
+    position: relative!important;
+    padding: 0!important;
+    left: inherit!important;
+}
+
+.stm_ico_countdown.style_3 .stm_countdown_wrap .stm_left_countdown .stm_ico_countdown__title_wrap {
+    position: inherit!important;
+    width: 100%!important;
+    height: inherit!important;
+    left: inherit!important;
+    top: inherit!important;
+}
+
+.stm_ico_countdown.style_3 .stm_countdown_wrap .stm_left_countdown .countdown-wrap.container {
+    padding-top: 25px!important;
+}
+
+.stm_ico_countdown.style_3 .stm_countdown_wrap .stm_left_countdown{
+    padding-top: 30px!important;
+    padding-left: 30px!important;
+}
+
+.stm_ico_countdown.style_3 .stm_ico_countdown__progress {
+    padding: 10px 0px!important;
+    margin-top: 0px!important;
+}
+
+.stm_ico_countdown.style_3 .stm_countdown_top_part {
+    font-weight: 700!important;
+    padding: 10px 0px 10px 0px!important;
+}
+
+.stm_ico_countdown.style_3 .price_description {
+    font-weight: 700!important;
+}
+
+.stm_ico_countdown__title {
+    font-size: 42px!important;
+}
+
+.stm_ico_countdown.style_3 .countdown_box {
+    max-height: 125px!important;
+    height: 125px!important;
+}
+
+.stm_ico_countdown.style_3 .stm_countdown_bot_part {
+    padding: 30px!important;
+    margin-top: 10px;
+}
+
+.stm_ico_countdown__links .essbfc-container {
+    padding: 60px 5px 10px 20px;
+    margin-right: 0px;
+    float: left;
+    margin-left: 0;
+}
+
+.countdown_social_extra {
+    float: left;
+    padding: 60px 20px 10px 0px;
+}
+
+.stm_ico_countdown.style_3 .stm_countdown_top_part .stm_raised_currencies {
+    display: none!important;
+}
+
+#buy_tokens .countdown_social_extra a {
+    padding-right: 5px;
+}
+
 /* Icons */
 body div .vc_btn3.vc_btn3-style-flat.vc_btn3-icon-left i:hover {
-  border: none!important;
+    border: none!important;
 }
 
 /* Roadmap */
@@ -329,6 +446,26 @@ body .essb_fullwidth_14_100_100 li {
     box-shadow: 0 10px 20px 0 rgba(1,150,255,.5)!important;
 }
 
+.mc4wp-form-5197 input[type=submit] {
+    transition: all .4s;
+    border-radius: 45px!important;
+    background-color: transparent!important;
+    background-image: linear-gradient(to right,#532db8 0,#0196ff 51%,#532db8 100%)!important;
+    background-image: -moz-linear-gradient(to right,#532db8 0,#0196ff 51%,#532db8 100%)!important;
+    background-size: 200% auto;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none!important;
+    background-repeat: repeat!important;
+    letter-spacing: .84px;
+    font-size: 14px!important;
+    height: 50px;
+    width: 100%;
+}
+
+.mc4wp-form-5197 input[type=submit]:hover {
+    background-image: linear-gradient(to right,#0196ff 0,#532db8 51%,#0196ff 100%)!important;
+}
 
 /* Footer */
 #footer {
