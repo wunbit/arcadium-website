@@ -1,4 +1,3 @@
-<?php if (!is_404()): ?>
     </div> <!--.container-->
     </div> <!--#main-->
     </div> <!--.content_wrapper-->
@@ -113,7 +112,6 @@
         </footer>
 	<?php endif; ?>
     </div> <!--#wrapper-->
-<?php endif; ?>
 <?php
 if (get_theme_mod('frontend_customizer', false)) {
 	//get_template_part( 'partials/frontend_customizer' );

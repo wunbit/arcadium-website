@@ -37,6 +37,14 @@ body {
     background-image: linear-gradient(to right,#532db8 0,#0196ff 100%)!important;
 }
 
+figure {
+    margin: 0 5px 0 0!important;
+}
+
+.media-left, .media-right, .media-body {
+    display: inline!important;
+}
+
 /* Header */
 #header .stm-header__hb .stm-navigation ul li a {
     font-size: 16px!important;
@@ -511,6 +519,16 @@ body .essb_fullwidth_14_100_100 li {
 
 .col-xs-12 {
     margin-top: 15px!important;
+}
+
+.page_404 .bottom {
+    position: inherit!important;
+    bottom: inherit!important;
+    left: inherit!important;
+}
+
+.error404 .button {
+    margin-top: 20px!important;
 }
 
 /* Cool Timeline */
