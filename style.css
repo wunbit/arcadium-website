@@ -45,6 +45,10 @@ figure {
     display: inline!important;
 }
 
+.background-colored {
+    background-image: linear-gradient(to right,#532db8 0,#0196ff 100%)!important;
+}
+
 /* Header */
 #header .stm-header__hb .stm-navigation ul li a {
     font-size: 16px!important;
@@ -284,6 +288,15 @@ body.error404 {
     margin: 0 0 0px!important;
 }
 
+.wpb_text_column p {
+    font-size: 21px;
+}
+
+.wpb_text_column ul li {
+    font-size: 21px;
+    color: #595959;
+}
+
 /* Sidebar */
 .widget .widget_title {
     font-size: 28px;
@@ -299,13 +312,8 @@ body.error404 {
     margin: 0!important;
 }
 
-.contact-us .wpb_text_column p  {
-    color: #fff!important;
-}
-
 .contact-us input[type=text], .contact-us input[type=email], .contact-us input[type=password], .contact-us input[type=search], textarea,  body .contact-us textarea.wpcf7-form-control {
-    background-color: #67c0ff;
-    color: #fff!important;
+    background-color: #fff;
     border: 0!important;
 }
 
@@ -314,22 +322,18 @@ label {
 }
 
 .contact-us ::-webkit-input-placeholder { /* WebKit browsers */
-    color: #fff !important;
     opacity: 1;
     font-size: 16px;
 }
 .contact-us :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-    color: #fff !important;
     opacity: 1;
     font-size: 16px;
 }
 .contact-us ::-moz-placeholder { /* Mozilla Firefox 19+ */
-    color: #fff !important;
     opacity: 1;
     font-size: 16px;
 }
 .contact-us :-ms-input-placeholder { /* Internet Explorer 10+ */
-    color: #fff !important;
     opacity: 1;
     font-size: 16px;
 }
@@ -345,7 +349,6 @@ button, html input[type=button], input[type=reset], input[type=submit], .comment
     text-transform: uppercase;
     border: none!important;
     background-repeat: repeat!important;
-    color: #fff;
     width: 440px;
     margin-top: 25px;
     font-size: 16px;
@@ -353,6 +356,7 @@ button, html input[type=button], input[type=reset], input[type=submit], .comment
 
 .wpcf7-form-control {
     font-size: 16px!important;
+    font-weight: 500;
 }
 
 body .input-group textarea.form-control, body textarea.form-control {
@@ -384,6 +388,11 @@ body .input-group textarea.form-control, body textarea.form-control {
 body #order_comments, body .input-group textarea.form-control, body textarea.form-control, body textarea.wpcf7-form-control {
     color: #222!important;
     font-weight: normal;
+}
+
+.contact-us input[type=submit] {
+    color: #fff!important;
+    background-color: #0196ff!important;
 }
 
 /* Easy Social Share */
@@ -427,6 +436,42 @@ body .essb_fullwidth_14_100_100 li {
     background-color: #2980b9;
     font-size: 16px!important;
     width: 100%;
+}
+
+body .essbfc-template-flat .essbfc-dribbble .essbfc-network {
+    background-color: #FF4500!important;
+}
+
+body .essbfc-dribbble > a > div > i {
+    background-image: url(https://arcadium.games/wp-content/uploads/2019/02/reddit-white-icon-1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 32px!important;
+    height: 32px!important;
+}
+
+body .essbfc-icon-dribbble:before {
+    content: none!important;
+}
+
+body .essbfc-template-flat .essbfc-forrst .essbfc-network {
+    background-color: #7289DA!important;
+}
+
+body .essbfc-forrst > a > div > i {
+    background-image: url(https://arcadium.games/wp-content/uploads/2019/02/discord-white-icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 32px!important;
+    height: 32px!important;
+}
+
+body .essbfc-icon-forrst:before {
+    content: none!important;
+}
+
+.stm_ico_countdown.style_3 .essbfc-profiles-size-medium i {
+    color: #fff!important;
 }
 
 /* Team */
@@ -473,6 +518,7 @@ body .essb_fullwidth_14_100_100 li {
     font-size: 14px!important;
     height: 50px;
     width: 100%;
+    color: #fff!important;
 }
 
 .mc4wp-form-5197 input[type=submit]:hover {
@@ -560,4 +606,53 @@ body .essb_fullwidth_14_100_100 li {
 
 .cool-timeline.white-timeline .timeline-post.even .timeline-meta .meta-details, .cool-timeline.white-timeline .timeline-post.odd .timeline-meta .meta-details {
     font-size: 18px;
+}
+
+/* Responsie */
+@media (max-width: 1023px) {
+    .essb_links.essb_size_xl li a .essb_network_name {
+        display: none!important;
+    }
+
+    input[type=submit] {
+        width: 100%!important;
+    }
+
+    .vc_custom_1550884302889 {
+        padding-top: 25px !important;
+        padding-right: 25px !important;
+    }
+
+    .contact-us .vc_column-inner {
+        padding-left: 25px!important;
+        padding-right: 25px!important;
+    }
+
+    #comments button {
+        width: 100%!important;
+    }
+
+    html body div .vc_btn3.vc_btn3-style-flat.vc_btn3-icon-left {
+        padding: 12px 15px 12px 65px!important;
+        background-color: #fff!important;
+    }
+
+    .stm_ico_countdown.style_3 .price_description {
+        max-width: 100%!important;
+        padding-bottom: 15px!important;
+    }
+
+    .vc_chart.vc_round-chart .vc_chart-with-legend {
+        width: 100%!important;
+        padding-left: 15px!important;
+    }
+
+    .stm_token_structure .stm_token .stm_token__label {
+        color: inherit!important;
+        font-size: 14px!important;
+    }
+
+    .team {
+        margin-bottom: 40px!important;
+    }
 }

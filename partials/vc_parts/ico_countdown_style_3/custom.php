@@ -282,19 +282,7 @@ $currencies_info = crypterio_get_cmc_data();
 
                     <div class="stm_countdown_top_part">
 
-												<?php echo do_shortcode( '[easy-profiles template="color" size="large" networks="facebook,twitter,youtube,telegram"]' ); ?>
-
-												<html>
-													<div class="countdown_social_extra">
-														<a href="https://discord.gg/cTPdage" target="_blank" class="vc_single_image-wrapper   vc_box_border_grey ">
-															<img width="32" height="32" src="https://arcadium.games/wp-content/uploads/2019/02/discord-icon-1.png" class="vc_single_image-img attachment-full" alt="" srcset="https://arcadium.games/wp-content/uploads/2019/02/discord-icon-1.png 54w, https://arcadium.games/wp-content/uploads/2019/02/discord-icon-1-50x50.png 50w" sizes="(max-width: 324px) 100vw, 32px">
-														</a>
-
-														<a href="https://www.reddit.com/r/arcadium/" target="_blank" class="vc_single_image-wrapper   vc_box_border_grey">
-															<img width="32" height="32" src="https://arcadium.games/wp-content/uploads/2019/02/reddit-icon.png" class="vc_single_image-img attachment-full" alt="" srcset="https://arcadium.games/wp-content/uploads/2019/02/reddit-icon.png 54w, https://arcadium.games/wp-content/uploads/2019/02/reddit-icon-50x50.png 50w" sizes="(max-width: 32px) 100vw, 32px">
-														</a>
-													</div>
-												</html>
+												<?php echo do_shortcode( '[easy-profiles template="flat" size="medium" networks="facebook,twitter,dribbble,instgram,youtube,github,forrst,telegram]' ); ?>
 
                         <?php
                         $eth = $currencies_info['Ethereum'];
