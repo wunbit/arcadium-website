@@ -127,6 +127,26 @@ figure {
     background-image: linear-gradient(to right,#532db8 0,#0196ff 100%)!important;
 }
 
+.wpb_text_column p {
+    font-size: 18px;
+}
+.wpb_text_column ul li {
+    font-size: 18px;
+}
+
+.icon_box.style_1 .icon_text p {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.icon_box.style_1 {
+    padding: 15px;
+}
+
+.icon_box.style_1 .icon_text p {
+    font-size: 16px;
+}
+
 /* Popup Maker */
 .pum-container.pum-responsive.pum-responsive-medium {
     width: 40%!important;
@@ -288,11 +308,11 @@ body.error404 {
     margin: 0 0 0px!important;
 }
 
-.wpb_text_column p {
+.post-content .wpb_text_column p {
     font-size: 21px;
 }
 
-.wpb_text_column ul li {
+.post-content .wpb_text_column ul li {
     font-size: 21px;
     color: #595959;
 }
@@ -490,6 +510,10 @@ body .essbfc-icon-forrst:before {
 
 .team .wpb_content_element {
     margin-bottom: 5px;
+}
+
+.team .wpb_content_element p, .team .wpb_content_element li {
+    font-size: 16px!important;
 }
 
 /* MailChimp for WordPress */
