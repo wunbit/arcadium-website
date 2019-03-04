@@ -632,7 +632,7 @@ body .essbfc-icon-forrst:before {
     font-size: 18px;
 }
 
-/* Responsie */
+/* Responsive */
 @media (max-width: 1023px) {
     .essb_links.essb_size_xl li a .essb_network_name {
         display: none!important;

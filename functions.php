@@ -16,3 +16,20 @@ function myoverride() {
     remove_action('wp_head', array(visual_composer(), 'addMetaData'));
   }
 }
+
+// Add Google Analytics
+function ns_google_analytics() { ?>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-20273659-30"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-20273659-30');
+	</script>
+
+  <?php
+  }
+
+add_action( 'wp_head', 'ns_google_analytics', 10 );
