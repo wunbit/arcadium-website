@@ -33,3 +33,20 @@ function ns_google_analytics() { ?>
   }
 
 add_action( 'wp_head', 'ns_google_analytics', 10 );
+
+// Link Featured Image to Post
+function wpb_autolink_featured_images( $html, $post_id, $post_image_id ) {
+
+If (! is_singular()) {
+
+$html = '<a href="' . get_permalink( $post_id ) . '" title="' . esc_attr( get_the_title( $post_id ) ) . '">' . $html . '</a>';
+return $html;
+
+} else {
+
+return $html;
+
+}
+
+}
+add_filter( 'post_thumbnail_html', 'wpb_autolink_featured_images', 10, 3 );
